@@ -56,3 +56,5 @@ Using outdated versions increases the chance of successful exploits since versio
 Use of common and weak passwords
 The WordPress admin login is one of the most highly targeted threat vectors since it grants the highest possible privileges. Some WordPress users set up the admin portal with common passwords that are easy to guess and are naturally more susceptible to exploits. In cases where the admin user ID is admin, it is easy to brute-force login into the system since bots go through fewer login attempts. A compromised admin account makes it easy to orchestrate a data breach on the website and is the most commonly known first level of penetration for full-blown attacks.
 
+
+
