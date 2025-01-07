@@ -57,4 +57,64 @@ Use of common and weak passwords
 The WordPress admin login is one of the most highly targeted threat vectors since it grants the highest possible privileges. Some WordPress users set up the admin portal with common passwords that are easy to guess and are naturally more susceptible to exploits. In cases where the admin user ID is admin, it is easy to brute-force login into the system since bots go through fewer login attempts. A compromised admin account makes it easy to orchestrate a data breach on the website and is the most commonly known first level of penetration for full-blown attacks.
 
 
+WordPress plugins for security issues
+WordPress security plugins help administrators manage the complex aspects of WordPress security and streamline security measures, compliance, and audit. Some popular security plugins for WordPress include:
+
+iThemes Security plugin
+iThemes is one of the most popular security plugins for WordPress websites as it offers multiple levels of security enhancements for robust threat management. The iThemes platform includes advanced controls such as multi-factor authentication, passwordless logins, and auto administering strong password requirements to reduce the likelihood of a hack through a privileged account. The platform also helps prevent automated brute-force logins by tracking login activity, then blocking the login screen in case of suspicious login attempts. The iThemes plugin also logs important security events for the WordPress website, highlighting unwanted changes to indicate a breach.
+
+Sucuri
+Sucuri is a cloud-based website security platform that helps protect WordPress sites from blacklists, malware, DDoS, and common attack vectors. With Sucuri, all website traffic is routed through the Sucuri cloud proxy Web Application Firewall (WAF) before going to the WordPress web server. The firewall blocks all illegitimate requests and only lets in authenticated users. While Sucuri offers a free service, it also offers a pro version that offers advanced features such as:
+
+Real-time backup for all website changes
+One-click recovery
+Event and activity log
+Spam protection of all user input interfaces
+Email alerts for site unavailability
+Wordfence
+Wordfence is an open-source WordPress security plugin in two flavors; the basic version that offers basic protection and an enterprise version with advanced security controls. The platform has an intuitive dashboard that makes it easy to visualize and navigate different aspects of security. In addition, Wordfence offers comprehensive WordPress security management and includes functions such as:
+
+WordPress Firewall — a WAF built to detect and block malicious traffic
+WordPress Security Scanner — investigates the core code, themes, and plugins to identify any security issues
+Login Security — enables different authentication mechanisms while blocking admin logins through compromised passwords
+Security Tools — real-time traffic monitoring, IP and country blocking
+Other ways to check for WordPress vulnerability
+WordPress Security Scanner
+WordPress security scanners are tools that help comprehensively evaluate the hosting environment, the web server, WordPress plugins, and themes to analyze any point of compromise. While standard security plugins offer innovative mechanisms to alert and deter attacks in progress, a security scanner is mainly used from a proactive standpoint to prevent future attacks by identifying system-level vulnerabilities.
+
+Some standard functions of a WordPress security scanner include:
+
+Use scripts to detect WordPress plugin versions, users, and themes
+Utilize theme and plugin enumeration to map the attack surface
+Fingerprint theme and plugin versions to pinpoint known vulnerabilities
+Enumerate website usernames
+FAQs for WordPress security issues
+Woocommerce security issues
+Woocommerce is a WordPress plugin used to develop e-commerce sites. Given the sensitive nature of e-commerce transactions, security issues cannot be ignored in such sites. While Woocommerce offers off-the-shelf security and is considered a security platform in itself, external threats such as brute force logins and hacking attacks are not uncommon. Any Woocommerce store uses a typical login screen that attackers tend to access through brute-force logins. Though the platform is supported by a proactive development community that constantly adds enhancements and security patches, the chancing threat landscape requires a focused approach to securing Woocommerce sites. Some best practices to secure Woocommerce sites include:
+
+Choosing a secure web host
+Leverage 2FA for admin logins
+Embracing a robust firewall mechanism
+Using the right security plugins
+Enforce policies for strong usernames and password
+Regular audit and full-stack scanning
+Regular backups
+WordPress sites hacked
+Due to its consistent popularity, the WordPress CMS remains a common target for attackers, with over 74% of website attacks being performed on WordPress. Hackers exploit vulnerabilities across all layers and components of a stack, including the core platform, plugins, or themes. According to a recent report, about 75% of WordPress attacks were through third-party plugins, 14% were on the core functionality, and 11% of attacks were carried out on outdated themes.
+
+Some examples of successful WordPress attacks from the recent past include:
+
+Attack on the “File Manager” WordPress plugin
+The 1 million site breach of 2020 The Responsive Menu breach
+
+# What is the best WordPress firewall plugin?
+   Firewall plugins (WAFs) help to filter all incoming traffic to your website. The most appropriate plugin differs for every use case; however, the right firewall platform must include     a  few basic features, such as:
+
+# Intrusion detection
+    Brute force prevention
+    Blacklist removal services
+    Malware detection and elimination
+    DNS-level firewall
+
+# This article has already been published on https://crashtest-security.com/wordpress-security-vulnerabilities/ and has been authorized by Crashtest Security for a republish.
 
